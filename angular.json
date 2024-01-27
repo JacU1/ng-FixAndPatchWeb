@@ -69,10 +69,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "ng-FixAndPatchWeb:build:production"
+              "buildTarget": "ng-FixAndPatchWeb:build:production"
             },
             "development": {
-              "browserTarget": "ng-FixAndPatchWeb:build:development"
+              "buildTarget": "ng-FixAndPatchWeb:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -80,7 +80,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "ng-FixAndPatchWeb:build"
+            "buildTarget": "ng-FixAndPatchWeb:build"
           }
         },
         "test": {
